@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap');
+
+body{
+    background-color:#FAF6FF;
+}
+
+
+.container {
+    margin-top: 20%;
+    margin-left: 10px;
+    display: flex;
+
+}
+
+.content{
+    display: block;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.explore{
+    
+    background-color: rgb(67, 202, 78);
+    color: rgb(221, 236, 225);
+    border-width: 0px;
+    left: 7%;
+    top: 35%;
+    font-size: 2ch;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.explore:hover {
+    background-color: rgb(43, 226, 73);
+
+}
+
+.responsive {
+    
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    
+    left: 60%;
+    top: 45%;
+    
+}
+
+.image{
+    display: flex;    
+}
