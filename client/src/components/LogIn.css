@@ -1,0 +1,31 @@
+.formDiv{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formDiv div{
+    padding: 2%;
+}
+.form1 input{
+    padding: 4px;
+    width: 250px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.formBut{
+    margin-top: 5%;
+}
+.formBut button{
+    cursor: pointer;
+    background-color: rgb(173, 173, 233);
+    border: 0;
+    padding: 5px;
+    width: 100px;
+}
